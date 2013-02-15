@@ -14,7 +14,7 @@
         <IsA>app:gui</IsA> 
         <Summary>Google Chrome for Linux</Summary>
         <Description>Google Chrome is another web browser which runs web pages and applications with lightning speed due to its superior JavaScript rendering engine.</Description>
-        <Archive sha1sum="f8b62ac85dc76bbccc6eed900852c9300915bb2f" type="binary">https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm</Archive>
+        <Archive sha1sum="c983a6ee19b032b13328c1d98d931103b83e79ba" type="binary">https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm</Archive>
         <BuildDependencies>
             <Dependency>rpm2targz</Dependency>
         </BuildDependencies>
@@ -66,6 +66,13 @@
     </Package>
 
     <History>
+         <Update release="18" type="security">
+            <Date>2013-02-15</Date>
+            <Version>24.0.1312.70</Version>
+            <Comment>Version update</Comment>
+            <Name>Yoyo Fernández</Name>
+            <Email>parduslife@gmail.com</Email>
+        </Update>
          <Update release="17" type="security">
             <Date>2013-02-07</Date>
             <Version>24.0.1312.69</Version>
